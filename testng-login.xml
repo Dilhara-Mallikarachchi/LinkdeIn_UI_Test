@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login only">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test name="Login">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="validLogin"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

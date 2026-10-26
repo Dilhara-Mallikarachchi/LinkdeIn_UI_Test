@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Search only">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test name="Search">
+    <classes>
+      <class name="tests.SearchTest"/>
+      <class name="tests.SearchResultTest"/>
+    </classes>
+  </test>
+</suite>
